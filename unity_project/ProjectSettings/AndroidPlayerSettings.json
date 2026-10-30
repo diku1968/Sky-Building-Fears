@@ -1,0 +1,39 @@
+{
+  "productName": "VR Sky View",
+  "companyName": "VRSkyViewStudio",
+  "bundleIdentifier": "com.aistudio.vrskyview",
+  "bundleVersion": "1.0.0",
+  "bundleVersionCode": 1,
+  "defaultInterfaceOrientation": "LandscapeLeft",
+  "allowedOrientations": {
+    "portrait": false,
+    "portraitUpsideDown": false,
+    "landscapeRight": true,
+    "landscapeLeft": true
+  },
+  "targetArchitectures": {
+    "ARMv7": false,
+    "ARM64": true
+  },
+  "scriptingBackend": "IL2CPP",
+  "graphicsAPIs": [
+    "OpenGLES3",
+    "Vulkan"
+  ],
+  "minimumAndroidSdkVersion": 24,
+  "targetAndroidSdkVersion": 34,
+  "xrPluginManagement": {
+    "loaders": [
+      "CardboardLoader"
+    ],
+    "automaticInitialization": true
+  },
+  "androidManifestSettings": {
+    "applicationTheme": "@android:style/Theme.NoTitleBar.Fullscreen",
+    "hardwareAcceleration": true,
+    "requiredSensors": [
+      "android.hardware.sensor.gyroscope",
+      "android.hardware.sensor.accelerometer"
+    ]
+  }
+}

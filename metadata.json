@@ -1,0 +1,8 @@
+{
+  "name": "VR Sky View",
+  "description": "VR Sky View: Immersive skyscraper rooftop observation experience for Android with Google Cardboard, JioDive, and 3DoF stereoscopic head tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
